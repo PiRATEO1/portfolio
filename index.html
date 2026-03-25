@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Saurabh Raj</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Animations -->
+    <div class="background-animations">
+        <!-- Floating particles -->
+        <span class="particle">cd /home</span>
+        <span class="particle">sudo apt-get</span>
+        <span class="particle">npm install</span>
+        <span class="particle">git push</span>
+        <span class="particle">python main.py</span>
+        <span class="particle">docker build</span>
+        <span class="particle">make install</span>
+        <span class="particle">ls -la</span>
+        <span class="particle">cat readme.md</span>
+        <span class="particle">./run.sh</span>
+        
+        <!-- Matrix rain columns -->
+        <div class="matrix-column">1 0 1 0 1 0 1</div>
+        <div class="matrix-column">0 1 0 1 0 1 0</div>
+        <div class="matrix-column">1 0 1 0 1 0 1</div>
+        <div class="matrix-column">0 1 0 1 0 1 0</div>
+        <div class="matrix-column">1 0 1 0 1 0 1</div>
+        <div class="matrix-column">0 1 0 1 0 1 0</div>
+        <div class="matrix-column">1 0 1 0 1 0 1</div>
+        <div class="matrix-column">0 1 0 1 0 1 0</div>
+        <div class="matrix-column">1 0 1 0 1 0 1</div>
+        <div class="matrix-column">0 1 0 1 0 1 0</div>
+    </div>
+    
+    <!-- Grid background -->
+    <div class="grid-bg"></div>
+    <!-- Landing Animation Overlay - Terminal Boot Style -->
+    <div class="landing-overlay">
+        <div class="terminal-boot">
+            <div class="boot-line">Initializing portfolio system...</div>
+            <div class="boot-line">Loading modules: [OK]</div>
+            <div class="boot-line">Connecting to server... [OK]</div>
+            <div class="boot-line">Loading assets... [OK]</div>
+            <div class="boot-line">Welcome to Saurabh Raj's Portfolio</div>
+            <div class="boot-line blink">_</div>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#training">Training</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </div>
+
+    <!-- 1. Landing Page -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="greeting fade-in-up">Hello, I'm</p>
+                <h1 class="name fade-in-up" style="animation-delay: 0.2s;">Saurabh Raj</h1>
+                <h2 class="tagline fade-in-up" style="animation-delay: 0.4s;">Developer | Cybersecurity Enthusiast | Problem Solver</h2>
+                <p class="tagline fade-in-up" style="animation-delay: 0.4s;">Specializing in the core: C-level memory management, Java-based algorithms, and Cybersecurity. I transform complex technical requirements into elegant, high-performance software solutions.</p>
+                <div class="cta-buttons fade-in-up" style="animation-delay: 0.6s;">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    
+                    <a href="/resume.pdf" class="btn btn-download" id="download-cv" download>
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+                <div class="social-links fade-in-up" style="animation-delay: 0.8s;">
+                    <a href="https://github.com/PiRATEO1" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/saurabh-raj01/" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="tel:+91 7061792489" class="social-icon">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="mailto:sauarbhrajkanaujiya@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in-up" style="animation-delay: 0.5s;">
+                <div class="code-rain">
+                    <pre></></pre>
+                    <pre>{ }</pre>
+                    <pre><?></pre>
+                    <pre>#</pre>
+                    <pre>...</pre>
+                    <pre>++</pre>
+                    <pre>&&</pre>
+                </div>
+                <div class="profile-card">
+                    <div class="typing-effect">
+                        <span class="typed-text"></span><span class="cursor">|</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+        <div class="particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="animated-bg"></div>
+    </section>
+
+    <!-- 2. Skills -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2>Skills</h2>
+            <p class="section-subtitle">Technologies I work with</p>
+        </div>
+        
+        <h3 class="skills-type-header">Technical Skills</h3>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="java">
+                        <i class="fa-brands fa-java"></i>
+                        <span>Java</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 75%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="c++">
+                        <i class="fa-solid fa-file-code"></i>
+                        <span>C++</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 75%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="java">
+                        <i class="fa-solid fa-c"></i>
+                        <span>C</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 75%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="Python">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="HTML5">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 95%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="CSS3">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="JavaScript">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="React">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Frameworks & Technologies</h3>
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="Node.js">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="spring">
+                        <i class="fas fa-leaf"></i>
+                        <span>Spring</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="React">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="Java">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                    </div>
+                    
+                    <div class="skill-card" data-skill="Spring Boot">
+                        <i class="fas fa-leaf"></i>
+                        <span>Spring Boot</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 75%"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Platforms</h3>
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="Git">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="Docker">
+                        <i class="fab fa-docker"></i>
+                        <span>Docker</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 70%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="AWS">
+                        <i class="fab fa-aws"></i>
+                        <span>AWS</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 65%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="MongoDB">
+                        <i class="fas fa-leaf"></i>
+                        <span>MongoDB</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="Kali Linux">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Kali Linux</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 70%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="Wireshark">
+                        <i class="fas fa-network-wired"></i>
+                        <span>Wireshark</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 70%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="Nmap">
+                        <i class="fas fa-radar"></i>
+                        <span>Nmap</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 70%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h3 class="skills-type-header">Soft Skills</h3>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Interpersonal Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-card" data-skill="Problem Solving">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <span>Problem Solving</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="Teamwork">
+                        <i class="fas fa-users"></i>
+                        <span>Teamwork</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="Communication">
+                        <i class="fas fa-comments"></i>
+                        <span>Communication</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                    </div>
+                    <div class="skill-card" data-skill="Adaptability">
+                        <i class="fas fa-sync-alt"></i>
+                        <span>Adaptability</span>
+                        <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Internships/Work Experience -->
+    
+
+    <!-- 4. Projects (GitHub) -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>Projects</h2>
+            <p class="section-subtitle">My GitHub repositories</p>
+        </div>
+        
+        <div class="projects-grid" id="projects-grid">
+            <!-- Resume Projects -->
+            <div class="project-card">
+                <h3>C-Line Shell</h3>
+                <p>Engineered a custom command-line interpreter (CLI) in C, emulating core shell functionalities including command parsing, tokenization, and process execution. Achieved cross-platform compatibility with Windows/Linux.</p>
+                <div class="project-stats">
+                    <span><i class="fas fa-star"></i> -</span>
+                    <span><i class="fas fa-code-branch"></i> -</span>
+                    <span><i class="fas fa-clock"></i> Aug '25 - Sept '25</span>
+                </div>
+                <div class="project-tags">
+                    <span>C</span>
+                    <span>System Programming</span>
+                    <span>Cross-platform</span>
+                </div>
+                <a href="https://github.com/PiRATEO1/C-Line-shell" target="_blank" class="project-link">
+                    View Project <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="project-card">
+                <h3>Secure Encryptor/Descriptor App</h3>
+                <p>Developed a secure file encryptor application using Spring Boot, integrating a cryptographic module for real-time encryption. Implemented AES-GCM standards for data confidentiality and integrity. Containerized using Docker.</p>
+                <div class="project-stats">
+                    <span><i class="fas fa-star"></i> -</span>
+                    <span><i class="fas fa-code-branch"></i> -</span>
+                    <span><i class="fas fa-clock"></i> Sept '25 - Oct '25</span>
+                </div>
+                <div class="project-tags">
+                    <span>Spring Boot</span>
+                    <span>AES-GCM</span>
+                    <span>Docker</span>
+                </div>
+                <a href="https://github.com/PiRATEO1/secure-encryptor-app" target="_blank" class="project-link">
+                    View Project <i class="fas fa-arrow-right"></i>
+                </a>
+                <br><a href="https://encryptor-app-6rhq.onrender.com/" target="_blank" class="project-link">
+                Live <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="project-card">
+                <h3>DSA Visualizer</h3>
+                <p>An interactive web-based platform designed to demystify complex Data Structures and Algorithms through real-time visualization. This tool bridges the gap between theoretical code and visual intuition, allowing users to watch how data moves and transforms.</p>
+                <div class="project-stats">
+                    <span><i class="fas fa-star"></i> 10</span>
+                    <span><i class="fas fa-code-branch"></i> 5</span>
+                    <span><i class="fas fa-clock"></i> Jan 2026</span>
+                </div>
+                <div class="project-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                </div>
+                <a href="https://github.com/PiRATEO1/DSAVisual.github.io" target="_blank" class="project-link">
+                    View Project <i class="fas fa-arrow-right"></i>
+                </a>
+                <br><a href="https://pirateo1.github.io/DSAVisual.github.io/" target="_blank" class="project-link">
+                Live <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="view-more">
+            <a href="https://github.com/PiRATEO1?tab=repositories" target="_blank" class="btn btn-secondary">
+                View All Projects <i class="fas fa-external-link-alt"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- 5. Training -->
+    <section id="training" class="training-section">
+        <div class="section-header">
+            <h2>Training</h2>
+            <p class="section-subtitle"></p>
+        </div>
+        <div class="training-grid">
+            <div class="training-card">
+                <div class="training-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="training-content">
+                    <h3>C Programming Language</h3>
+                    <h4>CSE PATHSHALA</h4>
+                    <p class="training-duration">Duration: 2 months</p>
+                    <p>Comprehensive training in C Programming.</p>
+                    <div class="training-skills">
+                        <span>Data Structures</span>
+                        <span>File Handling</span>
+                        <span>Memory Management</span>
+                        <span>GDB/GCC</span>
+                    </div>
+                    <br><div class="div">
+                        <br><a href="https://drive.google.com/file/d/1P17lkR34aDZ6uU__yquZc2m9XIMcr4JK/view?usp=drive_link" target="_blank" class="project-link">
+                Certificate <i class="fas fa-arrow-right"></i>
+                </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Certifications -->
+    <section id="certifications" class="certifications-section">
+        <div class="section-header">
+            <h2>Certificates</h2>
+            <p class="section-subtitle">Professional achievements and credentials</p>
+        </div>
+        <div class="certifications-grid">
+            
+                
+            </div>
+            <div class="certification-card">
+                <div class="cert-badge">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-content">
+                    <h3>Fundamentals of Network Communications</h3>
+                    <h4>Coursera</h4>
+                    <p class="cert-date">Issued: 2024</p>
+                </div>
+                <div class="cert-verify">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/QPSBEMTGWYJS" target="_blank" class="verify-btn">Verify</a>
+                </div>
+            </div>
+            <div class="certification-card">
+                <div class="cert-badge">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-content">
+                    <h3>Introduction to Hardware and Operating Systems</h3>
+                    <h4>Coursera</h4>
+                    <p class="cert-date">Issued: 2024</p>
+                </div>
+                <div class="cert-verify">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/NMEA7L7H4P9C" target="_blank" class="verify-btn">Verify</a>
+                </div>
+            </div>
+            <div class="certification-card">
+                <div class="cert-badge">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <div class="cert-content">
+                    <h3>The Bits and Bytes of Computer Networking</h3>
+                    <h4>Coursera</h4>
+                    <p class="cert-date">Issued: 2024</p>
+                </div>
+                <div class="cert-verify">
+                    <a href="https://www.coursera.org/account/accomplishments/verify/QBI19EMMZRG3" class="verify-btn">Verify</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Achievements -->
+    <section id="achievements" class="achievements-section">
+        <div class="section-header">
+            <h2>Achievements</h2>
+            <p class="section-subtitle">Milestones and accomplishments</p>
+        </div>
+        <div class="achievements-container">
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="achievement-content">
+                    <h3>4-Star C Language Proficiency</h3>
+                    <p>HackerRank | July 2024</p>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="achievement-content">
+                    <h3>3-Star Python Programming</h3>
+                    <p>HackerRank | September 2023</p>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="achievement-content">
+                    <h3>3-Star Problem Solving</h3>
+                    <p>HackerRank | September 2025</p>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <div class="achievement-content">
+                    <h3>4th Position in Binary Blitz Hackathon</h3>
+                    <p>Coding Ninja LPU | September 2024</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Education & Activities -->
+    <section id="education" class="education-section">
+        <div class="section-header">
+            <h2>Education & Activities</h2>
+            <p class="section-subtitle">Academic background</p>
+        </div>
+        <div class="education-container">
+            <!-- University -->
+            <div class="education-card">
+                <div class="edu-header">
+                    <div class="edu-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="edu-info">
+                        <h3>Bachelor of Technology - Computer Science & Engineering</h3>
+                        <p class="edu-institute">Lovely Professional University, Phagwara, Punjab</p>
+                    </div>
+                    <div class="edu-year-badge">Aug 2023 - Present</div>
+                </div>
+                <div class="edu-details">
+                    <span class="edu-grade"><i class="fas fa-star"></i> CGPA: 6.55</span>
+                </div>
+            </div>
+
+            <!-- Intermediate -->
+            <div class="education-card">
+                <div class="edu-header">
+                    <div class="edu-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="edu-info">
+                        <h3>Intermediate</h3>
+                        <p class="edu-institute">St. Karen's Secondary School, Patna, Bihar</p>
+                    </div>
+                    <div class="edu-year-badge">April 2020 - March 2021</div>
+                </div>
+                <div class="edu-details">
+                    <span class="edu-grade"><i class="fas fa-star"></i> Percentage: 77.4%</span>
+                </div>
+            </div>
+
+            <!-- Matriculation -->
+            <div class="education-card">
+                <div class="edu-header">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="edu-info">
+                        <h3>Matriculation</h3>
+                        <p class="edu-institute">Dr. D. Ram D.A.V Public School, Patna, Bihar</p>
+                    </div>
+                    <div class="edu-year-badge">April 2018 - March 2019</div>
+                </div>
+                <div class="edu-details">
+                    <span class="edu-grade"><i class="fas fa-star"></i> Percentage: 81%</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Activities Section -->
+        <div class="activities-section">
+            <h3 class="activities-title"><i class="fas fa-star"></i>Co-Curricular Activities </h3>
+            <div class="activities-timeline">
+                <div class="activity-row">
+                    <div class="activity-marker">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="activity-content">
+                        <div class="activity-header">
+                            <h4>E-commerce Founder & Operations</h4>
+                            <p class="activity-desc">Founded and managed two independent digital storefronts. Handled end-to-end supply chain logistics, customer relations, and performance marketing strategies.</p>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="activity-row">
+                    <div class="activity-marker">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="activity-content">
+                        <div class="activity-header">
+                            <h4>Visual Storytelling & Digital Design</h4>
+                        </div>
+                        <p class="activity-desc">Proficient in Adobe Photoshop and Premiere Pro for high-impact visual communication. I enjoy blending digital art with video editing to create immersive brand narratives and creative content</p>
+                        
+                    </div>
+                </div>
+                <div class="activity-row">
+                    <div class="activity-marker">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="activity-content">
+                        <div class="activity-header">
+                            <h4>Illustration & Sonic Exploration</h4>
+                            
+                        </div>
+                        <p class="activity-desc">Dedicated to the traditional art of drawing and sketching to visualize concepts quickly. I find my creative flow through a deep appreciation for music, which serves as the backdrop for my design process.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Contact -->
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Let's Connect</h3>
+            <p>Feel free to reach out for collaborations or just a friendly hello</p>
+            <div class="footer-social">
+                <a href="https://github.com/saurabh-raj" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/saurabh-raj" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="tel:+917061792489"><i class="fas fa-phone"></i></a>
+                <a href="mailto:sauarbhrajkanaujiya@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="copyright">© 2025 Saurabh Raj. Built with <i class="fas fa-heart"></i> and lots of <i class="fas fa-coffee"></i></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
